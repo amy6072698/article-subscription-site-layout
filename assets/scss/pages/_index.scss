@@ -1,3 +1,73 @@
-.index-title {
-  font-size: 100px;
+.index-banner {
+  .image{
+    background-image: url(/assets/images/banner.png);
+    height: 621px;
+  }
+  .card-img-overlay{
+    padding-left: 61px;
+  }
+}
+.index-theme {
+  .image{
+    width: 100%;
+    height: 84px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .image1{
+    background-image: url(/assets/images/theme-1-sm.png);
+  }
+  .image2{
+    background-image: url(/assets/images/theme-2-sm.png);
+  }
+  .image3{
+    background-image: url(/assets/images/theme-3-sm.png);
+  }
+  .image4{
+    background-image: url(/assets/images/theme-4-sm.png);
+  }
+  .image5{
+    background-image: url(/assets/images/theme-5-sm.png);
+  }
+  .image6{
+    background-image: url(/assets/images/theme-6-sm.png);
+  }
+  .image7{
+    background-image: url(/assets/images/theme-7-sm.png);
+  }
+  .image8{
+    background-image: url(/assets/images/theme-8-sm.png);
+  }
+}
+@media (min-width: 768px) {
+  .index-theme {
+    .image{
+      height: 200px;
+    }
+    .image1{
+      background-image: url(/assets/images/theme-1.png);
+    }
+    .image2{
+      background-image: url(/assets/images/theme-2.png);
+    }
+    .image3{
+      background-image: url(/assets/images/theme-3.png);
+    }
+    .image4{
+      background-image: url(/assets/images/theme-4.png);
+    }
+    .image5{
+      background-image: url(/assets/images/theme-5.png);
+    }
+    .image6{
+      background-image: url(/assets/images/theme-6.png);
+    }
+    .image7{
+      background-image: url(/assets/images/theme-7.png);
+    }
+    .image8{
+      background-image: url(/assets/images/theme-8.png);
+    }
+  }
 }

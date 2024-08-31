@@ -1,4 +1,40 @@
-<h1 class="header">我是 header</h1>
-<a href="index.html">index</a>
-<a href="about.html">about</a>
-<a href="contact.html">contact</a>
+<header class="header">
+  <div class="container">
+    <nav class="navbar navbar-expand-lg py-lg-8 pt-2 pb-1 border-bottom border-1 border-gray2-300">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <h2 class="visually-hidden">logo</h2>
+          <div class="logo-image"></div>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <form class="d-flex position-relative" role="search">
+            <input class="search-input form-control py-4 px-6 rounded-pill" type="search" placeholder="搜尋文章" aria-label="Search">
+            <button class="btn position-absolute py-4 px-6 end-0 top-50 translate-middle-y" type="submit">
+              <i class="bi bi-search text-secondary-200"></i>
+            </button>
+          </form>
+          <ul class="navbar-nav align-items-center ms-auto mb-2 mb-lg-0">
+            <li class="nav-item me-6">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item me-6">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item me-6">
+              <a class="nav-link" href="#">Dropdown</a>
+            </li>
+            <li class="nav-item">
+              <button class="btn btn-secondary-200 py-lg-5 px-lg-7" href="#" type="button">
+                登入 / 註冊
+              </button>
+            </li>
+          </ul>
+          
+        </div>
+      </div>
+    </nav>
+  </div>
+</header>

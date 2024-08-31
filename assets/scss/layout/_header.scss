@@ -1,4 +1,29 @@
-.header{
-  background: #69F0AE;
-  font-size: 64px;
+.decora-line{
+  display: none;
+  width: 2px;
+  height: 20px;
+  background-color: #000;
+  left: 100px;
 }
+.header{
+  .nav-link{
+    line-height: 1.2;
+  }
+  .search-input{
+    background-color: $white;
+    border-color: $neutral-200;
+    &::placeholder{
+      display: inline-block;
+      color: $neutral-300;
+      letter-spacing: 0.05em;
+    }
+    &:focus{
+      &::placeholder{
+        color: $neutral-600;
+        font-weight: 700;
+      }
+    }
+    
+  }
+}
+
