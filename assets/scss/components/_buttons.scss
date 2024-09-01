@@ -30,11 +30,21 @@
     &.text-button {
       padding: 8px 0;
       border: 0;
+      letter-spacing: 0.1em;
       background: none;
       --bs-btn-color: #569573;
       --bs-btn-hover-color: #406C55;
       --bs-btn-active-color: #406C55;;
       --bs-btn-disabled-color: #ADB5BD;
     }
+  }
+  &.search-btn{
+    --bs-btn-font-size: 1.5rem;
+    --bs-btn-line-height: 0;
+    --bs-btn-color: #569573;
+    --bs-btn-border-width: 0;
+    --bs-btn-hover-color: #569573;
+    --bs-btn-active-color: #569573;
+    transition: none;
   }
 }

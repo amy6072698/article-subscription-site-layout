@@ -578,6 +578,7 @@ $utilities: map-merge(
     "color": (
       property: color,
       class: text,
+      responsive: true,
       local-vars: (
         "text-opacity": 1
       ),
@@ -607,6 +608,7 @@ $utilities: map-merge(
     "text-color": (
       property: color,
       class: text,
+      responsive: true,
       values: $utilities-text-emphasis-colors
     ),
     // scss-docs-end utils-color
@@ -837,6 +839,20 @@ $utilities: map-merge(
     "font-weight":
       map-merge(
         map-get($utilities, "font-weight"),
+        (
+          responsive: true,
+        )
+      ),
+    "color":
+      map-merge(
+        map-get($utilities, "color"),
+        (
+          responsive: true,
+        )
+      ),
+    "text-color":
+      map-merge(
+        map-get($utilities, "text-color"),
         (
           responsive: true,
         )
