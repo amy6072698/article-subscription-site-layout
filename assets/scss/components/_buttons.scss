@@ -30,7 +30,6 @@
     &.text-button {
       padding: 8px 0;
       border: 0;
-      letter-spacing: 0.1em;
       background: none;
       --bs-btn-color: #569573;
       --bs-btn-hover-color: #406C55;
@@ -46,5 +45,15 @@
     --bs-btn-hover-color: #569573;
     --bs-btn-active-color: #569573;
     transition: none;
+  }
+  &.image-bg-btn{
+    border-radius: 0;
+    display: flex;
+    background: linear-gradient(to top,rgba(33,37,41),rgba(33,37,41,0.05));
+    --bs-btn-border-width: 0;
+    --bs-btn-padding-x: 0.75rem;
+    --bs-btn-color: #ffffff;
+    --bs-btn-hover-color: #ffffff;
+    --bs-btn-active-color: #ffffff;
   }
 }
