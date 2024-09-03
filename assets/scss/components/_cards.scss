@@ -54,14 +54,17 @@
   &.white-bg-card{
     // --bs-card-border-width: 0;
     --bs-card-border-radius: 0.75rem;
-    --bs-card-spacer-y: 2.5rem;
-    --bs-card-spacer-x: 2.5rem;
+    --bs-card-spacer-y: 1rem;
+    --bs-card-spacer-x: 1rem;
     --bs-card-title-color: #569573;
     --bs-card-cap-padding-y: 0;
     --bs-card-cap-padding-x: 0;
     --bs-card-cap-bg: #ffffff;
     --bs-card-bg: #ffffff;
     --bs-card-color: #343A40;
+    .card-list{
+      letter-spacing: 0.05em;
+    }
   }
   &.image-bg-card{
     position: relative;
@@ -89,7 +92,13 @@
 }
 
 @media (min-width: 992px) {
-  .card.simple-card .card-header{
-    font-size: 3.25rem;
+  .card{
+    &.simple-card .card-header{
+      font-size: 3.25rem;
+    }
+    &.white-bg-card .card-list{
+      letter-spacing: 0.1em;
+      line-height: 1.2;
+    }
   }
 }
