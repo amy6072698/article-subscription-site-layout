@@ -51,6 +51,18 @@
     // background-clip: border-box;
     // border: var(--bs-card-border-width) solid var(--bs-card-border-color);
   }
+  &.white-bg-card{
+    // --bs-card-border-width: 0;
+    --bs-card-border-radius: 0.75rem;
+    --bs-card-spacer-y: 2.5rem;
+    --bs-card-spacer-x: 2.5rem;
+    --bs-card-title-color: #569573;
+    --bs-card-cap-padding-y: 0;
+    --bs-card-cap-padding-x: 0;
+    --bs-card-cap-bg: #ffffff;
+    --bs-card-bg: #ffffff;
+    --bs-card-color: #343A40;
+  }
   &.image-bg-card{
     position: relative;
     --bs-card-border-width: 0;

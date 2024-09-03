@@ -36,6 +36,15 @@
       --bs-btn-active-color: #406C55;;
       --bs-btn-disabled-color: #ADB5BD;
     }
+    &.text-button-lg {
+      padding: 10px 0;
+      border: 0;
+      background: none;
+      --bs-btn-color: #569573;
+      --bs-btn-hover-color: #406C55;
+      --bs-btn-active-color: #406C55;;
+      --bs-btn-disabled-color: #ADB5BD;
+    }
   }
   &.search-btn{
     --bs-btn-font-size: 1.5rem;
