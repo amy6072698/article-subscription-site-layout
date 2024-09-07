@@ -89,27 +89,43 @@
 }
 
 .index-article{
-  .image{
-    width: 100%;
-    height: 192px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+  .switch-group{
+    margin-top: 2.5rem;
   }
-  .image1{
-    background-image: url(/assets/images/articles-1.png);
-  }
-  .image2{
-    background-image: url(/assets/images/articles-2.png);
-  }
-}
-@media (min-width: 768px) {
-  .index-article{
-    .image1{
-      background-image: url(/assets/images/articles-1-sm.png);
+  .switch-btn{
+    .bi::before{
+      line-height: none;
+      vertical-align: middle;
     }
-    .image2{
-      background-image: url(/assets/images/articles-2-sm.png);
+  }
+  .switch-pages{
+    color: $neutral-300;
+    line-height: 1.75;
+    .swiper-pagination-current{
+      color: $neutral-500;
+      padding-right: 10px;
+    }
+    .swiper-pagination-total{
+      color: $neutral-500;
+      padding-left: 10px;
+    }
+  }
+  .switch-dec-line{
+    width: 80px;
+    height: 1px;
+    background-color: #000;
+  }  
+}
+@media (min-width: 992px) {
+  .index-article{
+    .switch-group{
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      margin-top: 0;
+    }
+    .switch-btn-group{
+      margin-top: 2rem;
     }
   }
 }
@@ -147,6 +163,47 @@
       height: 196px;
       right: 12%;
       bottom: -8px;
+    }
+  }
+}
+
+
+@media (max-width: 768px) {
+  .hot-slide-cards{
+    box-shadow: 0 2px 8px #6e6b6714;
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    -webkit-overflow-scrolling: touch;
+    gap: 24px;
+    .white-bg-card{
+      width: 324px;
+    }
+    .badge{
+      font-size: 12px;
+      line-height: 1.6;
+    }
+    &.tab-content > .active {
+      display: flex;
+      opacity: 1;
+    }
+    &.tab-content > .tab-pane {
+      display: flex;
+      opacity: 1;
+    }
+  }
+  .project-slide-cards{
+    padding-top: 20px;
+    overflow-x: scroll;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    // -webkit-overflow-scrolling: touch;
+    .image-bg-card{
+      width: 306px;
     }
   }
 }
