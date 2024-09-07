@@ -1,0 +1,17 @@
+.nav{
+  &.nav-secondary-100{
+    font-size: 20px;
+    line-height: 1.2;
+    --bs-nav-pills-border-radius: 0.25rem;
+    --bs-nav-link-padding-x: 1rem;
+    --bs-nav-link-padding-y: 1rem;
+    --bs-nav-link-font-weight: 900;
+    --bs-nav-link-color: #212529;
+    --bs-nav-link-hover-color: #569573;
+    --bs-nav-pills-link-active-color: #212529;
+    --bs-nav-pills-link-active-bg: #E0EFDE;
+    .nav-link{
+      letter-spacing: 0.1em;
+    }
+  }
+}

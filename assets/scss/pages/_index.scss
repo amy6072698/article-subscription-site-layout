@@ -88,6 +88,32 @@
   }
 }
 
+.index-article{
+  .image{
+    width: 100%;
+    height: 192px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .image1{
+    background-image: url(/assets/images/articles-1.png);
+  }
+  .image2{
+    background-image: url(/assets/images/articles-2.png);
+  }
+}
+@media (min-width: 768px) {
+  .index-article{
+    .image1{
+      background-image: url(/assets/images/articles-1-sm.png);
+    }
+    .image2{
+      background-image: url(/assets/images/articles-2-sm.png);
+    }
+  }
+}
+
 .index-event-content{
   &:before{
     content: '';
