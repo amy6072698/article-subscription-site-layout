@@ -1,89 +1,26 @@
-.index-banner {
-  .image{
-    background-image: url(/assets/images/banner-sm.png);
-    height: 551px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-  }
-  .card-img-overlay{
-    padding: 48px 20px;
+.index-banner{
+  .space-change{
+    padding: 0 20px 48px 20px;
   }
 }
 @media (min-width: 992px) {
-  .index-banner {
-    .image{
-      background-image: url(/assets/images/banner.png);
-      height: 621px;
-    }
-    .card-img-overlay{
-      padding-left: 61px;
+  .index-banner{
+    .space-change{
+      padding:  0 0 0 61px;
     }
   }
 }
 
-
 .index-theme {
-  .image{
+  .image-size{
     width: 100%;
     height: 84px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-  }
-  .image1{
-    background-image: url(/assets/images/theme-1-sm.png);
-  }
-  .image2{
-    background-image: url(/assets/images/theme-2-sm.png);
-  }
-  .image3{
-    background-image: url(/assets/images/theme-3-sm.png);
-  }
-  .image4{
-    background-image: url(/assets/images/theme-4-sm.png);
-  }
-  .image5{
-    background-image: url(/assets/images/theme-5-sm.png);
-  }
-  .image6{
-    background-image: url(/assets/images/theme-6-sm.png);
-  }
-  .image7{
-    background-image: url(/assets/images/theme-7-sm.png);
-  }
-  .image8{
-    background-image: url(/assets/images/theme-8-sm.png);
   }
 }
 @media (min-width: 768px) {
   .index-theme {
-    .image{
+    .image-size{
       height: 200px;
-    }
-    .image1{
-      background-image: url(/assets/images/theme-1.png);
-    }
-    .image2{
-      background-image: url(/assets/images/theme-2.png);
-    }
-    .image3{
-      background-image: url(/assets/images/theme-3.png);
-    }
-    .image4{
-      background-image: url(/assets/images/theme-4.png);
-    }
-    .image5{
-      background-image: url(/assets/images/theme-5.png);
-    }
-    .image6{
-      background-image: url(/assets/images/theme-6.png);
-    }
-    .image7{
-      background-image: url(/assets/images/theme-7.png);
-    }
-    .image8{
-      background-image: url(/assets/images/theme-8.png);
     }
   }
 }
@@ -110,12 +47,12 @@
       padding-left: 10px;
     }
   }
-  .switch-dec-line{
-    width: 80px;
-    height: 1px;
-    background-color: #000;
-  }  
 }
+.switch-dec-line{
+  width: 80px;
+  height: 1px;
+  background-color: #000;
+}  
 @media (min-width: 992px) {
   .index-article{
     .switch-group{

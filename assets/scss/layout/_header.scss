@@ -6,11 +6,7 @@
   left: 100px;
 }
 .header{
-  .nav-link{
-    line-height: 1.2;
-  }
   .search-input{
-    width: 351px;
     background-color: $white;
     border-color: $neutral-200;
     &::placeholder{
@@ -25,11 +21,17 @@
       }
     }
   }
+  .sign-btn{
+    width: 100%;
+  }
+  .navbar-border-bottom{
+    border-bottom: 1px solid $neutral-300;
+  }
 }
 @media (min-width: 992px) {
   .header{
-    .search-input{
-      width: 351px;
+    .sign-btn{
+      width: auto;
     }
   }
 }
