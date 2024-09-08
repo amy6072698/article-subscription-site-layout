@@ -198,6 +198,7 @@ $utilities: map-merge(
     "width": (
       property: width,
       class: w,
+      responsive: true,
       values: (
         25: 25%,
         50: 50%,
@@ -853,6 +854,13 @@ $utilities: map-merge(
     "text-color":
       map-merge(
         map-get($utilities, "text-color"),
+        (
+          responsive: true,
+        )
+      ),
+    "width":
+      map-merge(
+        map-get($utilities, "width"),
         (
           responsive: true,
         )
