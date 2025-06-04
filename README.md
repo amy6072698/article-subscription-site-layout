@@ -22,11 +22,11 @@
 
 ### 👀 專案展示
 
-![首頁]()
+![首頁](https://github.com/amy6072698/article-subscription-site-layout/blob/main/assets/images/preview/index.png?raw=true)
 
-![熱門文章]()
+![熱門文章](https://github.com/amy6072698/article-subscription-site-layout/blob/main/assets/images/preview/hot-article.png?raw=true)
 
-![馬上訂閱]()
+![馬上訂閱](https://github.com/amy6072698/article-subscription-site-layout/blob/main/assets/images/preview/call-to-action.png?raw=true)
 
 ---
 
